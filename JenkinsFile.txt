@@ -1,9 +1,6 @@
 pipeline {
     stages {
         stage('Build'){
-            tools {
-                Gradle 'Gradle'
-            }
             steps {
                 script {
                     sh 'gradle test'
