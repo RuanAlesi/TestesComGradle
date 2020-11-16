@@ -1,4 +1,9 @@
 pipeline {
+    agent {
+        node {
+            label 'testesGradle'
+        }
+    }
     stages {
         stage('Build'){
             steps {
