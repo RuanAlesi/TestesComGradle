@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+dependencies {
+    testImplementation(platform('org.junit:junit-bom:5.7.0'))
+    testImplementation('org.junit.jupiter:junit-jupiter')
+    testCompile group: 'org.junit.vintage', name: 'junit-vintage-engine', version: '5.7.0'
+
+    compile group: 'io.cucumber', name: 'cucumber-java', version: '6.8.2'
+    compile group: 'io.cucumber', name: 'cucumber-core', version: '6.8.2'
+    compile group: 'io.cucumber', name: 'tag-expressions', version: '3.0.0'
+    compile group: 'io.cucumber', name: 'gherkin-jvm-deps', version: '1.0.6'
+
+    testCompile group: 'io.cucumber', name: 'cucumber-junit', version: '6.8.2'
+
+    testCompile group: 'io.rest-assured', name: 'rest-assured', version: '4.3.2'
+
+}
+
+
