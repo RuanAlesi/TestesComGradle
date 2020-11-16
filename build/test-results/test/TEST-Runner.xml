@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Runner" tests="10" skipped="0" failures="1" errors="0" timestamp="2020-11-16T08:42:43" hostname="DESKTOP-7CGGG7N" time="3.111">
+<testsuite name="Runner" tests="10" skipped="0" failures="1" errors="0" timestamp="2020-11-16T09:01:45" hostname="DESKTOP-7CGGG7N" time="5.242">
   <properties/>
-  <testcase name="Consulta de restrições #1" classname="Runner" time="1.819"/>
-  <testcase name="Consulta de restrições #2" classname="Runner" time="0.064"/>
-  <testcase name="Criando uma nova simulação e deletando em seguida (caminho feliz)" classname="Runner" time="0.792"/>
-  <testcase name="Tentando criar uma simulação com dados incorretos" classname="Runner" time="0.054"/>
-  <testcase name="Tentando criar uma simulação já existente para o CPF" classname="Runner" time="0.077">
+  <testcase name="Consulta de restrições #1" classname="Runner" time="2.144"/>
+  <testcase name="Consulta de restrições #2" classname="Runner" time="0.043"/>
+  <testcase name="Criando uma nova simulação e deletando em seguida (caminho feliz)" classname="Runner" time="2.01"/>
+  <testcase name="Tentando criar uma simulação com dados incorretos" classname="Runner" time="0.411"/>
+  <testcase name="Tentando criar uma simulação já existente para o CPF" classname="Runner" time="0.199">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;409&gt; but was &lt;400&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;409&gt; but was &lt;400&gt;.
 
@@ -49,15 +49,15 @@ Expected status code &lt;409&gt; but was &lt;400&gt;.
 	at ✽.deve ser retornado o status code &quot;409&quot;(file:///C:/QA/Projects/Compasso/br.com.testesapicomgradle/src/test/java/features/Simulacoes.feature:35)
 </failure>
   </testcase>
-  <testcase name="Alterando uma simulação já existente" classname="Runner" time="0.07"/>
-  <testcase name="Alterando uma simulação não existente" classname="Runner" time="0.067"/>
-  <testcase name="Consulta de todas as simulações" classname="Runner" time="0.05"/>
-  <testcase name="Consulta de uma a simulação existente" classname="Runner" time="0.053"/>
-  <testcase name="Consulta de uma a simulação não existente" classname="Runner" time="0.062"/>
+  <testcase name="Alterando uma simulação já existente" classname="Runner" time="0.103"/>
+  <testcase name="Alterando uma simulação não existente" classname="Runner" time="0.132"/>
+  <testcase name="Consulta de todas as simulações" classname="Runner" time="0.058"/>
+  <testcase name="Consulta de uma a simulação existente" classname="Runner" time="0.061"/>
+  <testcase name="Consulta de uma a simulação não existente" classname="Runner" time="0.078"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[?[32m?[1m?????????????????????????????????????????????????????????????????????????????[0m
 ?[32m?[1m??[0m View your Cucumber Report at:                                            ?[32m?[1m??[0m
-?[32m?[1m??[0m ?[1m?[36m?[4mhttps://reports.cucumber.io/reports/ced662f1-5edc-4dec-8d5b-46c34cdee567?[0m ?[32m?[1m??[0m
+?[32m?[1m??[0m ?[1m?[36m?[4mhttps://reports.cucumber.io/reports/cd8d1349-d6dc-4457-851a-5a70fb67133f?[0m ?[32m?[1m??[0m
 ?[32m?[1m??[0m                                                                          ?[32m?[1m??[0m
 ?[32m?[1m??[0m ?[1mThis report will self-destruct in 24h.?[0m                                   ?[32m?[1m??[0m
 ?[32m?[1m??[0m Keep reports forever: ?[4m?[1m?[36mhttps://reports.cucumber.io/profile?[0m                ?[32m?[1m??[0m

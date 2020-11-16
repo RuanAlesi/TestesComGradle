@@ -1,0 +1,14 @@
+pipeline {
+    stages {
+        stage('Build'){
+            tools {
+                Gradle 'Gradle 6.1.1'
+            }
+            steps {
+                script {
+                    sh 'gradle test'
+                }
+            }
+        }
+    }
+}

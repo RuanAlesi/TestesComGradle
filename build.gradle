@@ -17,7 +17,6 @@ test {
 }
 
 dependencies {
-    testImplementation(platform('org.junit:junit-bom:5.7.0'))
     testImplementation('org.junit.jupiter:junit-jupiter')
     testCompile group: 'org.junit.vintage', name: 'junit-vintage-engine', version: '5.7.0'
 
