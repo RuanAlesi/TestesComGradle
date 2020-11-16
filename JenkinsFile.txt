@@ -2,7 +2,7 @@ pipeline {
     stages {
         stage('Build'){
             tools {
-                Gradle 'Gradle 6.1.1'
+                Gradle 'Gradle'
             }
             steps {
                 script {
