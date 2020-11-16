@@ -32,7 +32,7 @@ Funcionalidade: Manutenão de simulações no end-point /api/v1/simulacoes
       | parcelas | 10                  |
       | seguro   | true                |
     Quando quando eu envio a requisicao para o endereco "http://localhost:8080/api/v1/simulacoes"
-    Entao deve ser retornado o status code "409"
+    Entao deve ser retornado o status code "400"
 
   Cenario: Alterando uma simulação já existente
     Dado as seguintes informacoes da simulacao
